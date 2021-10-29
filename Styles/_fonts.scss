@@ -1,12 +1,7 @@
 $main-font: 'Josefin Sans', sans-serif;
 $main-font2: 'Aleo', serif;
 
-h4 { /* Aleo Headers */
-    font-family: $main-font2;
-    color: white;
-    font-size: 36px;
 
-}
 h1 { /* MAKE MEDIA QUERIE */
     font-family: $main-font;
     color: white;
@@ -32,6 +27,13 @@ h3 { /*BODY*/
     letter-spacing: 1.6px;
     line-height: 26px;
     color: white;
+}
+
+h4 { /* Aleo Headers */
+    font-family: $main-font2;
+    color: white;
+    font-size: 36px;
+
 }
 
 .tagline {
@@ -69,6 +71,37 @@ a {
     font-size: 20px; 
 }
 
-.ltr-spacing {
+.one {
     letter-spacing: 1.5px;
+    font-size: 20px;
+}
+
+.two {
+    font-size: 20px;
+}
+
+.three { 
+    font-weight: 300; 
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.four { 
+    font-size: 16px;
+    letter-spacing: 1.6px;
+}
+
+.fa-quote-left {
+    font-size: 50px;
+    color: #5474FD;
+}
+
+.fab {
+    color: white;
+    margin: 8px;
+    font-size: 18px;
+}
+
+.fa-linkedin-in {
+    color: #5474FD;
 }
