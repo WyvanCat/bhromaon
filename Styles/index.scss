@@ -1,9 +1,13 @@
 @import 'fonts';
 @import 'media';
+@import 'nav';
+
 
 body { 
     margin: 0;
 }
+
+/* HEADER */ 
 
 .header {
     background-image: url("../Images/header-img.png");
@@ -26,7 +30,7 @@ body {
     }
 }
 
-/* SEARCH BAR */ 
+/* HEADER -> SEARCH BAR */ 
 
 form { 
     
@@ -38,12 +42,12 @@ button {
     background-color: #5474FD;
     color: white;
     font-family: $main-font2;
+    font-weight: 400;
     width: 153px;
     height: 63px;
     border: 2px solid #FFFFFF;
     size: 14px;
 }
-
 
 input {
 
@@ -56,5 +60,70 @@ input {
     text-align: center;
     letter-spacing: 2.8px;
 }
+
+/* INFO */
+
+.info { 
+    background-image: url("../Images/info-background-img.png");
+    height: 685px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    &__flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        width: 1110px;
+        height: 450px;
+        
+    }
+
+    &__button {
+        width: 228px;
+        height: 63px;
+        border: none;
+        background-color: #5474FD;
+        margin-top: 20px;
+    }
+
+    &__text {
+        width: 560px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: space-between;
+
+    }
+
+    &__imgs { 
+        width: 440px;
+        height: 450px;
+        position: relative;
+    }
+
+    &__1st { 
+        position:absolute;
+        top: 0;
+        left: 0;
+    }
+
+    &__2nd {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+}
+
+.pic {
+    width: 350px;
+    height: 220px;
+}
+
+
 
 
