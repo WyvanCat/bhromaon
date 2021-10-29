@@ -26,10 +26,10 @@
                 <button type="submit">SEARCH  <i class="fas fa-search"></i></button>
             </form>
 
-            <div class="scroll">
+            <a class="scroll" href="#who-we-are">
                 Scroll Down<br>
                 <i class="fas fa-chevron-down"></i>
-            </div>
+            </a>
         </div>
     </header>
 
@@ -38,15 +38,18 @@
         <div class="nav__text">
             <h2>BHROMAON</h2>
             <div class="nav__links">
-                <a href="">WHO WE ARE</a>
-                <a href="">WHAT WE DO</a>
-                <a href="">TRAVEL WITH US</a>
-                <a href="">CONTACT US</a>
+                <a href="#who-we-are">WHO WE ARE</a>
+                <a href="#what-we-do">WHAT WE DO</a>
+                <a href="#travel-with-us">TRAVEL WITH US</a>
+                <a href="#contact">CONTACT US</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
             </div>
         </div>
     </nav>
 
-    <section class="info"> <!-- INFO SECTION -->
+    <section class="info" id="who-we-are"> <!-- INFO SECTION -->
         <div class="info__flex">
             <div class="info__text">
                 <h4>Why Choose Us</h4>
@@ -63,11 +66,11 @@
         </div>
     </section>
 
-    <section class="booking"> <!-- GRAPHICS -->
+    <section class="booking" id="what-we-do"> <!-- GRAPHICS -->
         <!-- NO IDEA -->
     </section>
 
-    <section class="spain-1"> <!-- SPAIN 1-->
+    <section class="spain-1" id="travel-with-us"> <!-- SPAIN 1-->
         <div class="spain-1__box">
             <div class="spain-1__text">
                 <div class="font one">Spain</div>
@@ -108,10 +111,10 @@
         </div>
     </section>
 
-    <footer>
+    <footer id="contact">
         <div class="footer__flex">
-        <h2>BHROMAON</h2>
-        <div class="font four">Safe Travel Anywhere</div>
+            <h2>BHROMAON</h2>
+            <div class="font four">Safe Travel Anywhere</div>
             <div class="footer__icons">
                 <i class="fab fa-facebook-f"></i>
                 <i class="fab fa-twitter"></i>
