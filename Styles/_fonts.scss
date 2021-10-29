@@ -62,3 +62,13 @@ a {
     color: white;
     text-decoration: none;
 }
+
+.font { 
+    font-family: $main-font;
+    color: white;
+    font-size: 20px; 
+}
+
+.ltr-spacing {
+    letter-spacing: 1.5px;
+}
