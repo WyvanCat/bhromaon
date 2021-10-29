@@ -1,4 +1,44 @@
+h1 {
+  /* MAKE MEDIA QUERIE */
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: 4.8px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+
+.tagline {
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: 6.8px;
+  line-height: 0px;
+  position: relative;
+  bottom: 12px;
+  text-align: center;
+}
+
+.scroll {
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+  font-size: 14px;
+  letter-spacing: 2.8px;
+  text-align: center;
+}
+
 body {
+  margin: 0;
+}
+
+.header {
+  background-image: url("../Images/header-img.png");
+  height: 820px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -9,5 +49,55 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.header__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 350px;
+  width: 655px;
+}
+
+/* SEARCH BAR */
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+button {
+  background-color: #5474FD;
+  color: white;
+  font-family: "Aleo", serif;
+  width: 153px;
+  height: 63px;
+  border: 2px solid #FFFFFF;
+  size: 14px;
+}
+
+input {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 14px;
+  color: #999999;
+  width: 650px;
+  height: 63px;
+  border: 2px solid #FFFFFF;
+  text-align: center;
+  letter-spacing: 2.8px;
 }
